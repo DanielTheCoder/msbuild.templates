@@ -3,12 +3,13 @@
   <TemplateData>
     <Name>MSBuild empty Project</Name>
     <Description>MSBuild Empty Project Template</Description>
-    <Icon>MSBuild.ProjectTemplate.ico</Icon>
-    <ProjectType>MSBuild</ProjectType>
+    <Icon>MSBuild.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <TemplateID>MSBuild.ProjectTemplate</TemplateID>
     <!--<TemplateID>f14ef2c3-8d6f-4b21-9266-4b9a191419ac</TemplateID>-->
     <SortOrder>1000</SortOrder>
-    <CreateNewFolder>true</CreateNewFolder>
+    <CreateNewFolder>false</CreateNewFolder>
     <DefaultName>MSBuild.Project</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
