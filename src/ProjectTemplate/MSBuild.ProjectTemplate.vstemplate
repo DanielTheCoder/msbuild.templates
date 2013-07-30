@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>MSBuild empty Project</Name>
+    <Description>MSBuild Empty Project Template</Description>
+    <Icon>MSBuild.ProjectTemplate.ico</Icon>
+    <ProjectType>MSBuild</ProjectType>
+    <TemplateID>MSBuild.ProjectTemplate</TemplateID>
+    <!--<TemplateID>f14ef2c3-8d6f-4b21-9266-4b9a191419ac</TemplateID>-->
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MSBuild.Project</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <Folder Name=".build" TargetFolderName=".build">
+        <ProjectItem ReplaceParameters="true" TargetFileName="build.configuration.targets">build.configuration.targets</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="build.targets" OpenInEditor="true">build.targets</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
