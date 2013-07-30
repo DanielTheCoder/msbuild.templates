@@ -1,0 +1,4 @@
+msbuild.templates
+=================
+
+MSBuild Templates
