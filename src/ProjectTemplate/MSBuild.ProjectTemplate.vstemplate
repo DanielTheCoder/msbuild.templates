@@ -19,7 +19,7 @@
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <Folder Name=".build" TargetFolderName=".build">
-        <ProjectItem ReplaceParameters="true" TargetFileName="build.configuration.targets">build.configuration.targets</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="build.props">build.props</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="build.targets" OpenInEditor="true">build.targets</ProjectItem>
       </Folder>
     </Project>
