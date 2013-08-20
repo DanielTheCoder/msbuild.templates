@@ -15,6 +15,6 @@
     <Compile Include=".build\build.props" />
     <Compile Include=".build\build.targets" />
   </ItemGroup>
-  <Import Project="$(MSBuildProjectDirectory)\.build\build.props" />
-  <Import Project="$(MSBuildProjectDirectory)\.build\build.targets" />
+  <Import Condition="Exists('$(MSBuildProjectDirectory)\.build\build.props')" Project="$(MSBuildProjectDirectory)\.build\build.props" />
+  <Import Condition="Exists('$(MSBuildProjectDirectory)\.build\build.targets')" Project="$(MSBuildProjectDirectory)\.build\build.targets" />
 </Project>

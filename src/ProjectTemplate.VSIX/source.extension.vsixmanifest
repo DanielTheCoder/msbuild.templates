@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="MSBuild.ProjectTemplate..3c39c798-6e35-4394-bd76-9f300414b082" Version="1.1.0.0" Language="en-US" Publisher="Daniel Sack" />
+    <Identity Id="MSBuild.ProjectTemplate..3c39c798-6e35-4394-bd76-9f300414b082" Version="1.1.0.1" Language="en-US" Publisher="Daniel Sack" />
     <DisplayName>MSBuild Empty Project Template</DisplayName>
     <Description xml:space="preserve">Empty MSBuild Project Template</Description>
     <MoreInfo>https://github.com/DanielTheCoder/msbuild.templates</MoreInfo>
-    <ReleaseNotes>http://visualstudiogallery.msdn.microsoft.com/4b75d0cc-b693-4c1c-8105-fbaeb0714b03</ReleaseNotes>
+    <License>LICENSE.txt</License>
+    <GettingStartedGuide>https://github.com/DanielTheCoder/msbuild.templates</GettingStartedGuide>
+    <ReleaseNotes>https://github.com/DanielTheCoder/msbuild.templates/releases</ReleaseNotes>
     <Icon>MSBuild.ico</Icon>
     <PreviewImage>PreviewImage.png</PreviewImage>
     <Tags>MSBuild</Tags>
