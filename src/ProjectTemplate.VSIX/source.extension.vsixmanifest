@@ -5,6 +5,8 @@
     <DisplayName>MSBuild Empty Project Template</DisplayName>
     <Description xml:space="preserve">Empty MSBuild Project Template</Description>
     <MoreInfo>https://github.com/DanielTheCoder/msbuild.templates</MoreInfo>
+    <License>LICENSE.txt</License>
+    <GettingStartedGuide>https://github.com/DanielTheCoder/msbuild.templates</GettingStartedGuide>
     <ReleaseNotes>https://github.com/DanielTheCoder/msbuild.templates/releases</ReleaseNotes>
     <Icon>MSBuild.ico</Icon>
     <PreviewImage>PreviewImage.png</PreviewImage>
