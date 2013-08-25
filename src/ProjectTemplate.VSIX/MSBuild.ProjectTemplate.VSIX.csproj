@@ -57,6 +57,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MSBuild.ItemTemplate.Targets\MSBuild.ItemTemplate.Targets.csproj">
+      <Project>{2410335C-E90A-431D-B6A1-182D477061E5}</Project>
+      <Name>MSBuild.ItemTemplate.Targets</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\MSBuild.ItemTemplate\MSBuild.ItemTemplate.Props.csproj">
+      <Project>{CAB066EB-922A-472E-B87D-5A2D22882A37}</Project>
+      <Name>MSBuild.ItemTemplate.Props</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\ProjectTemplate\MSBuild.ProjectTemplate.csproj">
       <Project>{AD599539-08EB-4C04-AD2D-3CCB26C735A1}</Project>
       <Name>MSBuild.ProjectTemplate</Name>

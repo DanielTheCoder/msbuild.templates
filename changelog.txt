@@ -1,0 +1,3 @@
+1.2.0.0 - 2013/08/25
+New Features:
+ + Added ItemTemplates for .props and .targets files
