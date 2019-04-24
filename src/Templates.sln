@@ -1,13 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.ProjectTemplate.VSIX", "ProjectTemplate.VSIX\MSBuild.ProjectTemplate.VSIX.csproj", "{CC1F2955-5C1C-425A-B2B9-95B412A22FA1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AD599539-08EB-4C04-AD2D-3CCB26C735A1} = {AD599539-08EB-4C04-AD2D-3CCB26C735A1}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.ProjectTemplate", "ProjectTemplate\MSBuild.ProjectTemplate.csproj", "{AD599539-08EB-4C04-AD2D-3CCB26C735A1}"
-EndProject
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8FA10D62-2972-42C8-AD1C-5059FD75F9DE}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -23,6 +18,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\LICENSE.txt = ..\LICENSE.txt
 		..\README.md = ..\README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.ProjectTemplate.VSIX", "ProjectTemplate.VSIX\MSBuild.ProjectTemplate.VSIX.csproj", "{CC1F2955-5C1C-425A-B2B9-95B412A22FA1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD599539-08EB-4C04-AD2D-3CCB26C735A1} = {AD599539-08EB-4C04-AD2D-3CCB26C735A1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.ProjectTemplate", "ProjectTemplate\MSBuild.ProjectTemplate.csproj", "{AD599539-08EB-4C04-AD2D-3CCB26C735A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.ItemTemplate.Props", "MSBuild.ItemTemplate\MSBuild.ItemTemplate.Props.csproj", "{CAB066EB-922A-472E-B87D-5A2D22882A37}"
 EndProject
