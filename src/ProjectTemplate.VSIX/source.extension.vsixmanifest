@@ -1,36 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="MSBuild.ProjectTemplate..3c39c798-6e35-4394-bd76-9f300414b082" Version="1.2.0.0" Language="en-US" Publisher="Daniel Sack" />
-    <DisplayName>MSBuild Empty Project Template</DisplayName>
-    <Description xml:space="preserve">Empty MSBuild Project Template</Description>
-    <MoreInfo>https://github.com/DanielTheCoder/msbuild.templates</MoreInfo>
-    <License>LICENSE.txt</License>
-    <GettingStartedGuide>https://github.com/DanielTheCoder/msbuild.templates</GettingStartedGuide>
-    <ReleaseNotes>https://github.com/DanielTheCoder/msbuild.templates/releases</ReleaseNotes>
-    <Icon>MSBuild.ico</Icon>
-    <PreviewImage>PreviewImage.png</PreviewImage>
-    <Tags>MSBuild</Tags>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
-    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Premium" />
-    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Ultimate" />
-    <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.VWDExpress" />
-    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
-    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Premium" />
-    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Ultimate" />
-    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.VWDExpress" />
-    <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.Pro" />
-    <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.Premium" />
-    <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.Ultimate" />
-    <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.VWDExpress" />
-  </Installation>
-  <Dependencies>
-  </Dependencies>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="ProjectTemplates" d:Source="Project" d:ProjectName="MSBuild.ProjectTemplate" d:TargetPath="|MSBuild.ProjectTemplate;TemplateProjectOutputGroup|" d:VsixSubPath="ProjectTemplates" />
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="MSBuild.ItemTemplate.Props" d:TargetPath="|MSBuild.ItemTemplate.Props;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="MSBuild.ItemTemplate.Targets" d:TargetPath="|MSBuild.ItemTemplate.Targets;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-  </Assets>
+    <Metadata>
+        <Identity Id="MSBuild.ProjectTemplate..3c39c798-6e35-4394-bd76-9f300414b082" Version="1.2.0.0" Language="en-US" Publisher="Daniel Sack" />
+        <DisplayName>MSBuild Empty Project Template</DisplayName>
+        <Description xml:space="preserve">Empty MSBuild Project Template</Description>
+        <MoreInfo>https://github.com/DanielTheCoder/msbuild.templates</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://github.com/DanielTheCoder/msbuild.templates</GettingStartedGuide>
+        <ReleaseNotes>https://github.com/DanielTheCoder/msbuild.templates/releases</ReleaseNotes>
+        <Icon>MSBuild.ico</Icon>
+        <PreviewImage>PreviewImage.png</PreviewImage>
+        <Tags>MSBuild</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Premium" />
+        <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.Ultimate" />
+        <InstallationTarget Version="[14.0,15.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+        <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Premium" />
+        <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Ultimate" />
+        <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+        <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.Pro" />
+        <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.Premium" />
+        <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.Ultimate" />
+        <InstallationTarget Version="[11.0,12.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro" />
+    </Installation>
+    <Dependencies>
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" Path="ProjectTemplates" d:Source="Project" d:ProjectName="MSBuild.ProjectTemplate" d:TargetPath="|MSBuild.ProjectTemplate;TemplateProjectOutputGroup|" d:VsixSubPath="ProjectTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="MSBuild.ItemTemplate.Props" d:TargetPath="|MSBuild.ItemTemplate.Props;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="MSBuild.ItemTemplate.Targets" d:TargetPath="|MSBuild.ItemTemplate.Targets;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.1.28811.260,17.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
 </PackageManifest>
